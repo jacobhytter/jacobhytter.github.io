@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 /* HTML5 display-role reset for older browsers */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'SKFChevinOT-Light';
   src: url(../fonts/SKFChevinOT-Light.otf);
@@ -105,7 +110,8 @@ header {
 }
 
 .carousel {
-  padding: 60px 0;
+  max-width: 855px;
+  margin: 60px auto;
   position: relative;
   margin-bottom: 7.5rem;
 }
