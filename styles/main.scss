@@ -108,14 +108,12 @@ header {
     text-align: center;
     img {
       margin: 0 auto;
-      max-height: 590px;
     }
     p {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 126px;
-      background-color: #46413f;
+      height: 100px;
       color: #fff;
     }
   }
@@ -148,7 +146,7 @@ header {
       border-radius: 50%;
       cursor: pointer;
       display: inline-block;
-      background-color: #8e908f;
+      background-color: #ffffff;
       margin: 0 0.5625rem;
       transition: background-color 0.125s ease-out;
 
