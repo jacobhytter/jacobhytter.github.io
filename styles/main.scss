@@ -124,6 +124,15 @@ header {
   display: none;
 }
 
+.slick-prev {
+  left: 25px;
+  z-index: 2000;
+}
+.slick-next {
+  right: 25px;
+  z-index: 2000;
+}
+
 .slick-dots {
   text-align: center;
   margin: 1.25rem auto 0 auto;
